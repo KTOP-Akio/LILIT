@@ -1,0 +1,107 @@
+.profile {
+    max-width: 430px;
+    width: 100%;
+}
+
+.infoBlock {
+    display: flex;
+    gap: 13px;
+    margin-bottom: 13px;
+}
+
+.image {
+    max-width: 278px;
+}
+
+.staticInfo {
+    max-width: 300px;
+    width: 100%;
+}
+
+.name {
+    margin: 35px 0;
+    color: var(--pink);
+}
+
+.characteristics {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.charItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    color: var(--pink);
+}
+
+.socialBlock {
+    display: flex;
+    max-width: 370px;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.socilalButton {
+    background: transparent;
+    border: 1px solid var(--white);
+    padding: 4px 14px;
+    border-radius: 5px;
+    display: flex;
+    min-width: 174px;
+}
+
+.socilalButtonIcon {
+    background: transparent;
+    border: 1px solid var(--white);
+    padding: 4px 20px;
+    border-radius: 5px;
+}
+
+.btnText {
+    color: var(--white);
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.icon {
+    color: var(--pink);
+}
+
+.timeBlock {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 350px;
+    margin-left: 10px;
+    gap: 6px;
+}
+
+.timeBtn {
+    background: transparent;
+    border: 1px solid var(--pink);
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.timeBtnText {
+    margin-left: 6px;
+    color: var(--pink);
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.sun {
+    color: #F4D35E;
+}
+
+.moon {
+    color: #708DFA;
+}

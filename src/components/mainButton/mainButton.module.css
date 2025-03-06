@@ -1,0 +1,16 @@
+.buttonBox {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding: 16px 24px;
+    border-radius: 6px;
+    color: var(--white);
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    background: var(--gradient)
+}

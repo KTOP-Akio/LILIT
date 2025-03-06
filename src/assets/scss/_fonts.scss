@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+         url('../fonts/OpenSans-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 400;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+}
