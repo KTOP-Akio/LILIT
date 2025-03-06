@@ -18,7 +18,7 @@ import MainButton from '@/components/mainButton/mainButton';
 import { Sidebar } from '@/components/sidebar/Sidebar';
 
 
-export const Elite = () => {
+const Qestionnaire = () => {
   return (
     <MantineProvider>
       <Container size={'xs'}>
@@ -36,4 +36,4 @@ export const Elite = () => {
   );
 };
 
-export default Elite;
+export default Qestionnaire;

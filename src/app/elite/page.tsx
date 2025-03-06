@@ -17,7 +17,7 @@ import styles from './page.module.css';
 import MainButton from '@/components/mainButton/mainButton';
 
 
-export const Elite = () => {
+const Elite = () => {
   return (
     <MantineProvider>
       <Container size={'xs'}>
