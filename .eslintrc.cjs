@@ -18,14 +18,7 @@ module.exports = {
     rules: {
         'no-console':  'warn',
         'no-debugger': 'warn',
-        'quotes':      ['error', 'single'],
-        'semi':        ['error', 'always'],
-        'key-spacing': [
-            'error',
-            {
-                'align': 'value',
-            },
-        ],
+        'semi': "off",
         'import-newlines/enforce': [
             'error',
             {
